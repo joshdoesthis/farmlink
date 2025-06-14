@@ -22,8 +22,8 @@ const Component = () => {
     <>
       <Header />
       <main>
-        <div className="grid grow grid-flow-col items-start gap-8 bg-[#00806C]/50 p-8">
-          <Link className="inline-flex flex-col overflow-clip rounded-4xl bg-white" to="/store/1">
+        <div className="grid grow grid-flow-row items-start gap-8 bg-[#00806C]/50 p-8">
+          <Link className="inline-flex overflow-clip rounded-4xl bg-white" to="/store/1">
             <div className="inline-flex items-center justify-end bg-[#00806C]/10 p-8">
               <span className="rounded-full bg-white p-4 text-xl font-bold">100m</span>
             </div>
@@ -35,7 +35,7 @@ const Component = () => {
               <img className="h-12" src={Cabbage} />
             </div>
           </Link>
-          <Link className="inline-flex flex-col overflow-clip rounded-4xl bg-white" to="/store/2">
+          <Link className="inline-flex overflow-clip rounded-4xl bg-white" to="/store/2">
             <div className="inline-flex items-center justify-end bg-[#00806C]/10 p-8">
               <span className="rounded-full bg-white p-4 text-xl font-bold">150m</span>
             </div>
@@ -45,7 +45,7 @@ const Component = () => {
               <img className="h-12" src={Egg} />
             </div>
           </Link>
-          <Link className="inline-flex flex-col overflow-clip rounded-4xl bg-white" to="/store/3">
+          <Link className="inline-flex overflow-clip rounded-4xl bg-white" to="/store/3">
             <div className="inline-flex items-center justify-end bg-[#00806C]/10 p-8">
               <span className="rounded-full bg-white p-4 text-xl font-bold">300m</span>
             </div>
@@ -56,7 +56,7 @@ const Component = () => {
               <img className="h-12" src={Parsnip} />
             </div>
           </Link>
-          <Link className="inline-flex flex-col overflow-clip rounded-4xl bg-white" to="/store/4">
+          <Link className="inline-flex overflow-clip rounded-4xl bg-white" to="/store/4">
             <div className="inline-flex items-center justify-end bg-[#00806C]/10 p-8">
               <span className="rounded-full bg-white p-4 text-xl font-bold">500m</span>
             </div>
