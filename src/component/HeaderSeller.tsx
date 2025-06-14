@@ -8,16 +8,18 @@ const Component = () => {
           </li>
         </ul>
       </nav>
+
       <nav>
         <ul className="flex space-x-4">
           <li>
-            <a href="/">Home</a>
+            <a className="text-2xl" href="/seller">
+              <span className="material-symbol">home</span>
+            </a>
           </li>
           <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
+            <a className="text-2xl" href="/seller/account">
+              <span className="material-symbol">account_circle</span>
+            </a>
           </li>
         </ul>
       </nav>

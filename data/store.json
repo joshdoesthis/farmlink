@@ -1,0 +1,22 @@
+{
+  "id": 3,
+  "name": "Vegetable Patch",
+  "street": "321 Veggie Ave, Green City, BC 24680",
+  "city": "Green City",
+  "products": [
+    {
+      "id": 5,
+      "name": "Carrot",
+      "category": "Root Vegetables",
+      "price": 1.0,
+      "description": "Crunchy carrots, perfect for salads or snacks."
+    },
+    {
+      "id": 6,
+      "name": "Broccoli",
+      "category": "Cruciferous Vegetables",
+      "price": 1.75,
+      "description": "Fresh broccoli, great for steaming or stir-frying."
+    }
+  ]
+}

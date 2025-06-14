@@ -1,15 +1,8 @@
 const Component = () => {
   return (
-    <header className="inline-flex items-center justify-between bg-gray-800 p-4 text-lg font-bold text-white">
+    <div>
       <nav>
-        <ul className="flex space-x-4">
-          <li>
-            <a href="/">Farmlink</a>
-          </li>
-        </ul>
-      </nav>
-      <nav>
-        <ul className="flex space-x-4">
+        <ul className="flex flex-col space-x-4">
           <li>
             <a href="/">Home</a>
           </li>
@@ -21,7 +14,7 @@ const Component = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </div>
   )
 }
 
