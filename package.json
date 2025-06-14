@@ -1,0 +1,41 @@
+{
+  "name": "farmlink",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "bun vite build",
+    "fix": "eslint --fix .",
+    "preview": "bun vite preview",
+    "start": "bun vite"
+  },
+  "dependencies": {
+    "@sentry/react": "^9.27.0",
+    "@types/bun": "^1.2.15",
+    "immer": "^10.1.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.6.2",
+    "react-router-dom": "^7.6.2",
+    "ua-parser-js": "^2.0.3",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@tailwindcss/vite": "^4.1.8",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react-swc": "^3.10.1",
+    "eslint": "^9.28.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.12",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.1",
+    "vite": "^6.3.5"
+  }
+}

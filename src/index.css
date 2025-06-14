@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@36,400,1,0&display=block");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import "tailwindcss";
+
+@utility text-fill-* {
+  -webkit-text-fill-color: --value(--color-\*);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .material-symbol {
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    cursor: default;
+    direction: ltr;
+    display: inline;
+    font-family: "Material Symbols Rounded";
+    font-optical-sizing: auto;
+    line-height: 1em;
+    max-width: 1ch;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    user-select: none;
+    word-wrap: normal;
+  }
+
+  html {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    @apply min-h-screen;
+  }
+
+  body {
+    @apply min-h-screen leading-relaxed;
+  }
+
+  #root {
+    @apply flex min-h-screen flex-col;
+  }
+
+  main {
+    @apply flex flex-1 flex-col;
+  }
+}
