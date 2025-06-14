@@ -1,9 +1,9 @@
-import HeaderSeller from "../component/Header"
+import Header from "../component/Header"
 
 const Component = () => {
   return (
     <>
-      <HeaderSeller />
+      <Header />
       <main>
         <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-4"></div>
       </main>
