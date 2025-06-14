@@ -1,4 +1,4 @@
-import HeaderSeller from "../component/HeaderSeller"
+import HeaderSeller from "../component/Header"
 
 const Component = () => {
   return (

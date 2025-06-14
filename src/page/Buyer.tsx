@@ -1,4 +1,4 @@
-import HeaderBuyer from "../component/HeaderBuyer"
+import HeaderBuyer from "../component/Header"
 
 const Component = () => {
   return (
