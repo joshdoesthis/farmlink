@@ -5,7 +5,7 @@ const Component = () => {
     <>
       <Header />
       <main>
-        <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-4"></div>
+        <div className="grid grow grid-flow-col items-start gap-8 bg-[#00806C]/50 p-8"></div>
       </main>
     </>
   )
