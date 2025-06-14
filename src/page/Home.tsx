@@ -14,7 +14,7 @@ import Parsnip from "../../public/parsnip.png"
 import Radish from "../../public/radish.png"
 import Strawberry from "../../public/strawberry.png"
 import Tomato from "../../public/tomato.png"
-import Watermelon from "../../public/Watermelon.png"
+import Watermelon from "../../public/watermelon.png"
 import Header from "../component/Header"
 
 const Component = () => {
