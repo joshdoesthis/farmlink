@@ -39,12 +39,18 @@ const Component = () => {
             </div>
             <div>
               <div className="inline-flex flex-col gap-4 overflow-clip rounded-4xl border-2 border-[#00806C]/20 p-8">
-                <div className="inline-flex items-center justify-between gap-x-4">
+                <div className="inline-flex items-center justify-center gap-x-4">
                   <img className="h-12" src={Egg} />
                 </div>
-                <div className="inline-flex items-center justify-between gap-x-4">
+                <div className="inline-flex flex-col items-center justify-between gap-4">
                   <span className="text-2xl font-bold">Egg</span>
-                  <span className="text-2xl">5 left</span>
+                  <div className="inline-flex items-center justify-between gap-x-2">
+                    <span className="material-symbol text-xl font-bold">remove</span>
+                    <span className="rounded-2xl bg-[#00806C]/20 px-4 py-2 text-2xl font-bold">
+                      5
+                    </span>
+                    <span className="material-symbol text-xl font-bold">add</span>
+                  </div>
                 </div>
               </div>
             </div>
