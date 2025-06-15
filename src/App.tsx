@@ -11,6 +11,7 @@ import Error from "./page/Error"
 import Home from "./page/Home"
 import NotFound from "./page/NotFound"
 import Orders from "./page/Orders"
+import Paid from "./page/Paid"
 import Store from "./page/Store"
 
 const router = createBrowserRouter([
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
       { element: <Cart />, path: "/cart" },
       { element: <Store />, path: "/store/:id" },
       { element: <Orders />, path: "/orders" },
+      { element: <Paid />, path: "/paid" },
       { element: <NotFound />, path: "*" },
       { element: <NotFound />, path: "/notfound" }
     ],

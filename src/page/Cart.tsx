@@ -60,7 +60,7 @@ const Component = () => {
             <span className="text-xl font-bold">Total: $3.75</span>
             <Link
               className="inline-flex items-center justify-center gap-x-2 rounded-2xl bg-[#F3C430] px-4 py-2 text-xl font-bold text-black"
-              to="/order"
+              to="/paid"
             >
               <span className="material-symbol">shopping_cart</span>
               Place Order
