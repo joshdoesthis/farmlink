@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@36,400,1,0&display=block");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"); */
 @import "tailwindcss";
 
 @utility text-fill-* {
@@ -30,6 +30,7 @@
   }
 
   html {
+    /* font-family: "Source Sans 3", sans-serif; */
     font-family: sans-serif;
     font-optical-sizing: auto;
     text-rendering: optimizeLegibility;
