@@ -23,7 +23,7 @@ const Component = () => {
     <>
       <Header />
       <main>
-        <div className="grid grow grid-flow-row content-start gap-8 bg-[#00806C]/50 p-8">
+        <div className="grid grow grid-flow-row content-start gap-8 bg-[#9BBEB6] p-8">
           <div className="inline-flex gap-x-4">
             <Link
               className="inline-flex items-center gap-2 rounded-2xl bg-white px-4 py-2 text-xl font-bold"

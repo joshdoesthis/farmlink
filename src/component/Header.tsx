@@ -4,7 +4,7 @@ import FarmlinkIcon from "../../public/farmlink-icon.svg"
 
 const Component = () => {
   return (
-    <header className="flex bg-[#00806C]/50 p-8">
+    <header className="flex bg-[#9BBEB6] p-8">
       <div className="flex grow items-center justify-between rounded-2xl bg-[#00806C] px-8 py-4 text-lg font-bold text-white">
         <nav>
           <Link to="/">

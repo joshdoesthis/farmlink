@@ -25,7 +25,7 @@ const Component = () => {
     <>
       <Header />
       <main>
-        <div className="inline-flex grow flex-col bg-[#00806C]/50 p-8">
+        <div className="inline-flex grow flex-col bg-[#9BBEB6] p-8">
           <div className="mb-8 inline-flex flex-col gap-y-4 rounded-4xl bg-white p-8">
             {/* <div className="relative inline-flex items-center justify-end overflow-clip rounded-2xl bg-[#00806C]/10 p-8">
               <img className="absolute right-0 left-0 rounded-2xl" src={StoreMap} />

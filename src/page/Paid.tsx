@@ -25,7 +25,7 @@ const Component = () => {
     <>
       <Header />
       <main>
-        <div className="flex grow flex-col bg-[#00806C]/50 p-8">
+        <div className="flex grow flex-col bg-[#9BBEB6] p-8">
           <div className="inline-flex w-full flex-col gap-y-4 rounded-4xl bg-white p-8">
             <h1 className="text-4xl font-bold">Order Recieved!</h1>
             <p>
