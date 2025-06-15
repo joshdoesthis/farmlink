@@ -32,9 +32,9 @@ const Component = () => {
                 location_on
               </span>
             </div>
-            <h1 className="text-4xl font-bold">Mikes&apos;s Store</h1>
+            <h1 className="text-4xl font-bold">Mikes&apos;s Stall</h1>
             <p>
-              Welcome to Mikes&apos;s Store! Here you can find a variety of fresh produce and other
+              Welcome to Mikes&apos;s Stall! Here you can find a variety of fresh produce and other
               items.
             </p>
             <div className="inline-flex items-center justify-start gap-x-4">
