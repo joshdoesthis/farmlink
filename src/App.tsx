@@ -6,11 +6,11 @@ import Page from "./component/Page"
 import Browse from "./page/Browse"
 import Buyer from "./page/Buyer"
 import Cart from "./page/Cart"
+import Dashboard from "./page/Dashboard"
 import Error from "./page/Error"
 import Home from "./page/Home"
 import NotFound from "./page/NotFound"
-import Order from "./page/Order"
-import Seller from "./page/Seller"
+import Orders from "./page/Orders"
 import Store from "./page/Store"
 
 const router = createBrowserRouter([
@@ -19,11 +19,11 @@ const router = createBrowserRouter([
     children: [
       { element: <Home />, path: "/" },
       { element: <Buyer />, path: "/buyer" },
-      { element: <Seller />, path: "/seller" },
+      { element: <Dashboard />, path: "/dashboard" },
       { element: <Browse />, path: "/browse" },
       { element: <Cart />, path: "/cart" },
       { element: <Store />, path: "/store/:id" },
-      { element: <Order />, path: "/order" },
+      { element: <Orders />, path: "/orders" },
       { element: <NotFound />, path: "*" },
       { element: <NotFound />, path: "/notfound" }
     ],

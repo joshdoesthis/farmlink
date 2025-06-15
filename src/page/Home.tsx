@@ -26,7 +26,7 @@ const Component = () => {
     <>
       <Header />
       <main>
-        <div className="grid grow grid-flow-row items-start gap-8 bg-[#00806C]/50 p-8">
+        <div className="grid grow grid-flow-row content-start gap-8 bg-[#00806C]/50 p-8">
           <Link className="inline-flex overflow-clip rounded-4xl bg-white" to="/store/1">
             <div className="inline-flex items-start gap-8 bg-[#00806C]/10 p-8">
               <div className="inline-flex flex-col items-center justify-between gap-y-4">
