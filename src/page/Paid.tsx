@@ -29,7 +29,7 @@ const Component = () => {
           <div className="inline-flex w-full flex-col gap-y-4 rounded-4xl bg-white p-8">
             <h1 className="text-4xl font-bold">Order Recieved!</h1>
             <p>
-              Ready for <span className="font-bold">pick up at 5pm</span>from Mike&apos;s Stall
+              Ready for <span className="font-bold">pick up at 5pm</span> from Mike&apos;s Stall
               today.
             </p>
 
