@@ -27,7 +27,10 @@ const Component = () => {
       <Header />
       <main>
         <div className="grid grow grid-flow-row content-start gap-8 bg-[#00806C]/50 p-8">
-          <Link className="inline-flex overflow-clip rounded-4xl bg-white" to="/store/1">
+          <Link
+            className="inline-flex flex-col overflow-clip rounded-4xl bg-white md:flex-row"
+            to="/store/1"
+          >
             <div className="inline-flex items-start gap-8 bg-[#00806C]/10 p-8">
               <div className="inline-flex flex-col items-center justify-between gap-y-4">
                 <div className="relative inline-flex size-24 items-center justify-center overflow-clip rounded-full bg-white">
@@ -36,7 +39,7 @@ const Component = () => {
                 <span className="text-xl font-bold">Cindy</span>
               </div>
               <div className="inline-flex flex-col items-start justify-center gap-y-2">
-                <span className="rounded-2xl bg-white p-4 text-xl font-bold">100m</span>
+                <span className="z-10 rounded-2xl bg-white p-4 font-bold md:text-xl">100m</span>
                 <div className="inline-flex flex-col gap-y-1 rounded-2xl bg-white p-4 text-sm">
                   <span className="font-bold">Available</span>
                   <span>Mornings 8-9am</span>
@@ -46,7 +49,7 @@ const Component = () => {
             </div>
             <div className="inline-flex flex-col gap-6 p-8">
               <p className="text-xl font-bold">I am selling...</p>
-              <div className="inline-flex items-center justify-between gap-x-4">
+              <div className="inline-flex items-center justify-start gap-x-4">
                 <img className="h-12" src={Cauliflower} />
                 <img className="h-12" src={Carrot} />
                 <img className="h-12" src={Capsicum} />
@@ -64,7 +67,10 @@ const Component = () => {
               </p>
             </div>
           </Link>
-          <Link className="inline-flex overflow-clip rounded-4xl bg-white" to="/store/2">
+          <Link
+            className="inline-flex flex-col overflow-clip rounded-4xl bg-white md:flex-row"
+            to="/store/2"
+          >
             <div className="inline-flex items-start gap-8 bg-[#00806C]/10 p-8">
               <div className="inline-flex flex-col items-center justify-between gap-y-4">
                 <div className="relative inline-flex size-24 items-center justify-center overflow-clip rounded-full bg-white">
@@ -73,7 +79,7 @@ const Component = () => {
                 <span className="text-xl font-bold">Mike</span>
               </div>
               <div className="inline-flex flex-col items-start justify-center gap-y-2">
-                <span className="rounded-2xl bg-white p-4 text-xl font-bold">150m</span>
+                <span className="z-10 rounded-2xl bg-white p-4 font-bold md:text-xl">150m</span>
                 <div className="inline-flex flex-col gap-y-1 rounded-2xl bg-white p-4 text-sm">
                   <span className="font-bold">Available</span>
                   <span>Mornings 7-10am</span>
@@ -83,7 +89,7 @@ const Component = () => {
             </div>
             <div className="inline-flex flex-col gap-6 p-8">
               <p className="text-xl font-bold">I am selling...</p>
-              <div className="inline-flex items-center justify-between gap-x-4">
+              <div className="inline-flex items-center justify-start gap-x-4">
                 <img className="h-12" src={Broccoli} />
                 <img className="h-12" src={Strawberry} />
                 <img className="h-12" src={Egg} />
@@ -99,7 +105,10 @@ const Component = () => {
               </p>
             </div>
           </Link>
-          <Link className="inline-flex overflow-clip rounded-4xl bg-white" to="/store/3">
+          <Link
+            className="inline-flex flex-col overflow-clip rounded-4xl bg-white md:flex-row"
+            to="/store/3"
+          >
             <div className="inline-flex items-start gap-8 bg-[#00806C]/10 p-8">
               <div className="inline-flex flex-col items-center justify-between gap-y-4">
                 <div className="relative inline-flex size-24 items-center justify-center overflow-clip rounded-full bg-white">
@@ -108,7 +117,7 @@ const Component = () => {
                 <span className="text-xl font-bold">Ethan</span>
               </div>
               <div className="inline-flex flex-col items-start justify-center gap-y-2">
-                <span className="rounded-2xl bg-white p-4 text-xl font-bold">300m</span>
+                <span className="z-10 rounded-2xl bg-white p-4 font-bold md:text-xl">300m</span>
                 <div className="inline-flex flex-col gap-y-1 rounded-2xl bg-white p-4 text-sm">
                   <span className="font-bold">Available</span>
                   <span>Mornings 8-11am</span>
@@ -118,7 +127,7 @@ const Component = () => {
             </div>
             <div className="inline-flex flex-col gap-6 p-8">
               <p className="text-xl font-bold">I am selling...</p>
-              <div className="inline-flex items-center justify-between gap-x-4">
+              <div className="inline-flex items-center justify-start gap-x-4">
                 <img className="h-12" src={Honey} />
                 <img className="h-12" src={Grape} />
                 <img className="h-12" src={Mushroom} />
@@ -135,7 +144,10 @@ const Component = () => {
               </p>
             </div>
           </Link>
-          <Link className="inline-flex overflow-clip rounded-4xl bg-white" to="/store/4">
+          <Link
+            className="inline-flex flex-col overflow-clip rounded-4xl bg-white md:flex-row"
+            to="/store/4"
+          >
             <div className="inline-flex items-start gap-8 bg-[#00806C]/10 p-8">
               <div className="inline-flex flex-col items-center justify-between gap-y-4">
                 <div className="relative inline-flex size-24 items-center justify-center overflow-clip rounded-full bg-white">
@@ -144,7 +156,7 @@ const Component = () => {
                 <span className="text-xl font-bold">Emma</span>
               </div>
               <div className="inline-flex flex-col items-start justify-center gap-y-2">
-                <span className="rounded-2xl bg-white p-4 text-xl font-bold">500m</span>
+                <span className="z-10 rounded-2xl bg-white p-4 font-bold md:text-xl">500m</span>
                 <div className="inline-flex flex-col gap-y-1 rounded-2xl bg-white p-4 text-sm">
                   <span className="font-bold">Available</span>
                   <span>Mornings 6-8am</span>
@@ -154,7 +166,7 @@ const Component = () => {
             </div>
             <div className="inline-flex flex-col gap-6 p-8">
               <p className="text-xl font-bold">I am selling...</p>
-              <div className="inline-flex items-center justify-between gap-x-4">
+              <div className="inline-flex items-center justify-start gap-x-4">
                 <img className="h-12" src={Radish} />
                 <img className="h-12" src={Tomato} />
                 <img className="h-12" src={Watermelon} />

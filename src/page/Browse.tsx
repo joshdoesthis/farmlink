@@ -23,7 +23,7 @@ const Component = () => {
       <Header />
       <main>
         <div className="grow bg-[#00806C]/50 p-8">
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-3">
             <div className="inline-flex flex-col items-center justify-center gap-4 overflow-clip rounded-4xl bg-white p-8">
               <div>
                 <img className="h-12" src={Broccoli} />

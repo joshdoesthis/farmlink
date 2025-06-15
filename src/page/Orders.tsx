@@ -45,48 +45,48 @@ const Component = () => {
               <h1 className="text-2xl font-bold">Active Orders</h1>
             </div>
             <div className="mt-8 inline-grid grid-cols-4 border-b-2 border-[#00806C]/20 pb-4">
-              <span className="text-xl font-bold">Items</span>
-              <span className="text-xl font-bold">Total</span>
-              <span className="text-xl font-bold">Status</span>
-              <span className="text-xl font-bold">When</span>
+              <span className="font-bold md:text-xl">Items</span>
+              <span className="font-bold md:text-xl">Total</span>
+              <span className="font-bold md:text-xl">Status</span>
+              <span className="font-bold md:text-xl">When</span>
             </div>
             <div className="grid divide-y-2 divide-[#00806C]/20">
               <div className="inline-grid grid-cols-4 items-center py-4">
-                <div className="inline-flex items-center justify-start gap-x-4">
+                <div className="inline-flex items-center justify-start gap-x-2 md:gap-x-4">
                   <div className="inline-flex flex-col items-center gap-y-2">
-                    <img className="h-12" src={Egg} />
-                    <span className="text-xl">x6</span>
+                    <img className="h-8 md:h-12" src={Egg} />
+                    <span className="md:text-xl">x6</span>
                   </div>
                 </div>
                 <div>
-                  <span className="text-xl">$4.50</span>
+                  <span className="md:text-xl">$4.50</span>
                 </div>
                 <div>
-                  <span className="text-xl">Picking Up</span>
+                  <span className="md:text-xl">Picking Up</span>
                 </div>
                 <div>
-                  <span className="text-xl">Today 5:00pm</span>
+                  <span className="md:text-xl">Today 5:00pm</span>
                 </div>
               </div>
               <div className="inline-grid grid-cols-4 items-center py-4">
-                <div className="inline-flex items-center justify-start gap-x-4">
+                <div className="inline-flex items-center justify-start gap-x-2 md:gap-x-4">
                   <div className="inline-flex flex-col items-center gap-y-2">
-                    <img className="h-12" src={Broccoli} />
-                    <span className="text-xl">x1</span>
+                    <img className="h-8 md:h-12" src={Broccoli} />
+                    <span className="md:text-xl">x1</span>
                   </div>
                   <div className="inline-flex flex-col items-center gap-y-2">
-                    <img className="h-12" src={Strawberry} />
-                    <span className="text-xl">200g</span>
+                    <img className="h-8 md:h-12" src={Strawberry} />
+                    <span className="md:text-xl">200g</span>
                   </div>
                 </div>
                 <div>
-                  <span className="text-xl">$5.00</span>
+                  <span className="md:text-xl">$5.00</span>
                 </div>
                 <div>
-                  <span className="text-xl">Picking Up</span>
+                  <span className="md:text-xl">Picking Up</span>
                 </div>
                 <div>
-                  <span className="text-xl">Today 5:30pm</span>
+                  <span className="md:text-xl">Today 5:30pm</span>
                 </div>
               </div>
             </div>
@@ -96,27 +96,27 @@ const Component = () => {
               <h1 className="text-2xl font-bold">Complete Orders</h1>
             </div>
             <div className="mt-8 inline-grid grid-cols-4 border-b-2 border-[#00806C]/20 pb-4">
-              <span className="text-xl font-bold">Items</span>
-              <span className="text-xl font-bold">Total</span>
-              <span className="text-xl font-bold">Status</span>
-              <span className="text-xl font-bold">When</span>
+              <span className="font-bold md:text-xl">Items</span>
+              <span className="font-bold md:text-xl">Total</span>
+              <span className="font-bold md:text-xl">Status</span>
+              <span className="font-bold md:text-xl">When</span>
             </div>
             <div className="grid divide-y-2 divide-[#00806C]/20">
               <div className="inline-grid grid-cols-4 items-center py-4">
-                <div className="inline-flex items-center justify-start gap-x-4">
+                <div className="inline-flex items-center justify-start gap-x-2 md:gap-x-4">
                   <div className="inline-flex flex-col items-center gap-y-2">
-                    <img className="h-12" src={Egg} />
-                    <span className="text-xl">x6</span>
+                    <img className="h-8 md:h-12" src={Egg} />
+                    <span className="md:text-xl">x6</span>
                   </div>
                 </div>
                 <div>
-                  <span className="text-xl">$4.50</span>
+                  <span className="md:text-xl">$4.50</span>
                 </div>
                 <div>
-                  <span className="text-xl">Collected</span>
+                  <span className="md:text-xl">Collected</span>
                 </div>
                 <div>
-                  <span className="text-xl">Yesterday 5:00pm</span>
+                  <span className="md:text-xl">Yesterday 5:00pm</span>
                 </div>
               </div>
             </div>

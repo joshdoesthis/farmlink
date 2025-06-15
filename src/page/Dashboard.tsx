@@ -47,11 +47,11 @@ const Component = () => {
                 className="inline-flex items-center justify-center gap-x-2 text-xl font-bold text-[#00806C]"
                 to="/product"
               >
-                Edit Profile
+                <span className="hidden md:inline">Edit Profile</span>
                 <span className="material-symbol text-4xl font-bold">edit</span>
               </Link>
             </div>
-            <div className="inline-flex items-start justify-between gap-y-2">
+            <div className="inline-flex flex-col items-start justify-between gap-y-2 md:flex-row">
               <div className="inline-flex flex-col gap-y-2">
                 <div className="inline-flex items-center gap-x-2">
                   <span className="material-symbol text-2xl">location_on</span>
@@ -89,11 +89,11 @@ const Component = () => {
                 className="inline-flex items-center justify-center gap-x-2 text-xl font-bold text-[#00806C]"
                 to="/product"
               >
-                Add Item
+                <span className="hidden md:inline">Add Item</span>
                 <span className="material-symbol text-4xl font-bold">add_circle</span>
               </Link>
             </div>
-            <div className="grid grid-flow-col items-start gap-8">
+            <div className="grid grid-flow-row items-start gap-8 md:grid-flow-col">
               <div className="inline-flex flex-col gap-4 overflow-clip rounded-4xl border-2 border-[#00806C]/20 p-8">
                 <div className="inline-flex items-center justify-center gap-x-4">
                   <img className="h-12" src={Broccoli} />

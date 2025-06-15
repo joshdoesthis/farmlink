@@ -8,7 +8,7 @@ const Component = () => {
       <div className="flex grow items-center justify-between rounded-2xl bg-[#00806C] px-8 py-4 text-lg font-bold text-white">
         <nav>
           <Link to="/">
-            <img className="h-8" src={FarmlinkIcon} />
+            <img className="h-6 md:h-8" src={FarmlinkIcon} />
           </Link>
         </nav>
         <nav>
@@ -17,7 +17,7 @@ const Component = () => {
             to="/browse"
           >
             <span className="material-symbol text-2xl">search</span>
-            Find Produce&hellip;
+            <span className="hidden sm:inline">Find Produce&hellip;</span>
           </Link>
         </nav>
         <nav>
@@ -25,8 +25,8 @@ const Component = () => {
             className="inline-flex items-center justify-center gap-x-2 rounded-xl bg-[#F3C430] px-4 py-2 font-bold text-black"
             to="/dashboard"
           >
-            Become a Seller
-            <span className="material-symbol">arrow_forward</span>
+            <span className="hidden sm:inline">Become a Seller</span>
+            <span className="material-symbol text-2xl">arrow_forward</span>
           </Link>
         </nav>
       </div>

@@ -54,8 +54,8 @@ const Component = () => {
               </div>
               <div className="relative my-8 inline-flex w-full items-center justify-end overflow-clip rounded-2xl bg-[#00806C]/10 p-8">
                 <img className="absolute right-0 left-0 rounded-2xl" src={StoreMap} />
-                <span className="z-10 rounded-full bg-white p-4 text-xl font-bold">150m</span>
-                <span className="material-symbol absolute top-4 right-4 left-1/2 text-6xl text-[#00806C]">
+                <span className="z-10 rounded-2xl bg-white p-4 font-bold md:text-xl">150m</span>
+                <span className="material-symbol absolute top-4 right-4 left-1/2 -ml-12 text-6xl text-[#00806C]">
                   location_on
                 </span>
               </div>

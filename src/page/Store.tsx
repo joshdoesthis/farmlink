@@ -27,8 +27,8 @@ const Component = () => {
           <div className="mb-8 inline-flex w-full flex-col gap-y-4 rounded-4xl bg-white p-8">
             <div className="relative inline-flex items-center justify-end overflow-clip rounded-2xl bg-[#00806C]/10 p-8">
               <img className="absolute right-0 left-0 rounded-2xl" src={StoreMap} />
-              <span className="z-10 rounded-full bg-white p-4 text-xl font-bold">150m</span>
-              <span className="material-symbol absolute top-4 right-4 left-1/2 text-6xl text-[#00806C]">
+              <span className="z-10 rounded-2xl bg-white p-4 font-bold md:text-xl">150m</span>
+              <span className="material-symbol absolute top-4 right-4 left-1/2 -ml-12 text-6xl text-[#00806C]">
                 location_on
               </span>
             </div>
@@ -43,7 +43,7 @@ const Component = () => {
               <span>Evenings 5-6pm</span>
             </div>
           </div>
-          <div className="grid grid-flow-col items-start gap-8">
+          <div className="grid grid-flow-row items-start gap-8 md:grid-flow-col">
             <div className="inline-flex flex-col gap-4 overflow-clip rounded-4xl bg-white p-8">
               <div className="inline-flex items-center justify-between gap-x-4">
                 <img className="h-12" src={Broccoli} />
