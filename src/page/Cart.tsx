@@ -32,7 +32,7 @@ const Component = () => {
               <span className="z-10 rounded-full bg-white p-4 text-xl font-bold">150m</span>
             </div> */}
             <div>
-              <h1 className="text-4xl font-bold">Mike&apos;s Store</h1>
+              <h1 className="text-4xl font-bold">Mike&apos;s Stall</h1>
               <p>
                 <span className="text-xl font-bold">150m</span>
               </p>
