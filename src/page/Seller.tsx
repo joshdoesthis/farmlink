@@ -24,6 +24,22 @@ const Component = () => {
       <Header />
       <main>
         <div className="grid grow grid-flow-row items-start gap-8 bg-[#00806C]/50 p-8">
+          <div className="inline-flex gap-x-4">
+            <Link
+              className="inline-flex items-center gap-2 rounded-2xl bg-white px-4 py-2 text-xl font-bold"
+              to="/browse"
+            >
+              <span className="material-symbol">dashboard</span>
+              Dashboard
+            </Link>
+            <Link
+              className="inline-flex items-center gap-2 rounded-2xl bg-white px-4 py-2 text-xl"
+              to="/browse"
+            >
+              <span className="material-symbol">orders</span>
+              Orders
+            </Link>
+          </div>
           <div className="inline-flex flex-col gap-y-8 rounded-2xl bg-white p-8">
             <div className="inline-flex items-center justify-between">
               <h1 className="text-3xl font-bold">Mike&apos;s Stall Dashboard</h1>
@@ -82,9 +98,10 @@ const Component = () => {
                 <div className="inline-flex items-center justify-center gap-x-4">
                   <img className="h-12" src={Broccoli} />
                 </div>
-                <div className="inline-flex flex-col items-center justify-between gap-4">
+                <div className="inline-flex flex-col items-center justify-between gap-y-2">
                   <span className="text-2xl font-bold">Broccoli</span>
-                  <div className="inline-flex items-center justify-between gap-x-2">
+                  <span className="text-xl">$1 ea.</span>
+                  <div className="mt-2 inline-flex items-center justify-between gap-x-2">
                     <span className="material-symbol text-xl font-bold">remove</span>
                     <span className="rounded-2xl bg-[#00806C]/20 px-4 py-2 text-2xl font-bold">
                       5
@@ -97,9 +114,10 @@ const Component = () => {
                 <div className="inline-flex items-center justify-center gap-x-4">
                   <img className="h-12" src={Strawberry} />
                 </div>
-                <div className="inline-flex flex-col items-center justify-between gap-4">
+                <div className="inline-flex flex-col items-center justify-between gap-y-2">
                   <span className="text-2xl font-bold">Strawberry</span>
-                  <div className="inline-flex items-center justify-between gap-x-2">
+                  <span className="text-xl">$4 200g</span>
+                  <div className="mt-2 inline-flex items-center justify-between gap-x-2">
                     <span className="material-symbol text-xl font-bold">remove</span>
                     <span className="rounded-2xl bg-[#00806C]/20 px-4 py-2 text-2xl font-bold">
                       30
@@ -112,9 +130,10 @@ const Component = () => {
                 <div className="inline-flex items-center justify-center gap-x-4">
                   <img className="h-12" src={Egg} />
                 </div>
-                <div className="inline-flex flex-col items-center justify-between gap-4">
+                <div className="inline-flex flex-col items-center justify-between gap-y-2">
                   <span className="text-2xl font-bold">Egg</span>
-                  <div className="inline-flex items-center justify-between gap-x-2">
+                  <span className="text-xl">$0.75 ea.</span>
+                  <div className="mt-2 inline-flex items-center justify-between gap-x-2">
                     <span className="material-symbol text-xl font-bold">remove</span>
                     <span className="rounded-2xl bg-[#00806C]/20 px-4 py-2 text-2xl font-bold">
                       10

@@ -48,9 +48,10 @@ const Component = () => {
               <div className="inline-flex items-center justify-between gap-x-4">
                 <img className="h-12" src={Broccoli} />
               </div>
-              <div className="inline-flex flex-col items-start justify-between gap-x-4">
+              <div className="inline-flex flex-col items-start justify-between gap-y-2">
                 <span className="text-2xl font-bold">Broccoli</span>
-                <span className="text-2xl">5 left</span>
+                <span className="text-xl">$1 ea.</span>
+                <span className="mt-2 text-2xl">5 left</span>
               </div>
               <div>
                 <button className="rounded-2xl bg-[#00806C] px-4 py-2 font-bold text-white">
@@ -62,9 +63,10 @@ const Component = () => {
               <div className="inline-flex items-center justify-between gap-x-4">
                 <img className="h-12" src={Strawberry} />
               </div>
-              <div className="inline-flex flex-col items-start justify-between gap-x-4">
+              <div className="inline-flex flex-col items-start justify-between gap-y-2">
                 <span className="text-2xl font-bold">Strawberry</span>
-                <span className="text-2xl">30 left</span>
+                <span className="text-xl">$4 200g</span>
+                <span className="mt-2 text-2xl">30 left</span>
               </div>
               <div>
                 <button className="rounded-2xl bg-[#00806C] px-4 py-2 font-bold text-white">
@@ -76,9 +78,10 @@ const Component = () => {
               <div className="inline-flex items-center justify-between gap-x-4">
                 <img className="h-12" src={Egg} />
               </div>
-              <div className="inline-flex flex-col items-start justify-between gap-x-4">
+              <div className="inline-flex flex-col items-start justify-between gap-y-2">
                 <span className="text-2xl font-bold">Egg</span>
-                <span className="text-2xl">10 left</span>
+                <span className="text-xl">$0.75 ea.</span>
+                <span className="mt-2 text-2xl">10 left</span>
               </div>
               <div>
                 <Link
